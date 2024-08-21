@@ -1,4 +1,5 @@
 <shapes type=list>
+	<checkerboard.nx type=vector names=FALSE length=1 as.numeric=TRUE >1</checkerboard.nx>
 	<scaling type=logical names=FALSE length=1 as.numeric=FALSE >NA</scaling>
 	<landmarks.pixel type=matrix rownames=TRUE colnames=FALSE nrow=16 ncol=2 as.numeric=TRUE >
 		LM1	294	8
@@ -1543,5 +1544,9 @@
 			567	310
 		</posterior>
 	</curves.pixel>
+	<ruler.points type=matrix rownames=TRUE colnames=FALSE nrow=2 ncol=2 as.numeric=TRUE >
+		Ruler point 1	517	55
+		Ruler point 2	554	56
+	</ruler.points>
 </shapes>
 
